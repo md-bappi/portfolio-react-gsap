@@ -102,7 +102,7 @@ hr {
 
 .header .box {
   background: linear-gradient(135deg, var(--color-light) 90%, transparent 10%);
-  height: 8vw;
+  height: 7vw;
   width: 14vw;
   display: flex;
   justify-content: space-around;
