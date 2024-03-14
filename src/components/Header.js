@@ -84,7 +84,7 @@ const Header = () => {
           </span>
         </Link>
         <h2 ref={text3}>Aspiring</h2>
-        <Link to="/about" className="box projects" ref={box2}>
+        <Link to="/projects" className="box projects" ref={box2}>
           <span>Projects</span>
           <span>
             <BsArrowUpRightCircle />

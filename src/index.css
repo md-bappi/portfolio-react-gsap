@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --color-light: #fffaf3;
+  --color-light: #fbefdf;
   --color-gray: #c1c0b6;
   --color-gray-darker: #b2b2a8;
   --color-dark: #3f3b37;
@@ -170,6 +170,25 @@ hr {
   justify-content: space-between;
   align-items: flex-end;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.project-item .multiple-h2 {
+  display: none;
+}
+
+.project-item:hover .multiple-h2 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-style: italic;
+  color: var(--color-light);
+}
+
+.project-item:hover .project-details,
+.project-item:hover .single-h2 {
+  display: none;
 }
 
 .project-item span {
